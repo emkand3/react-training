@@ -190,10 +190,11 @@ input:focus {
 .about-link {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
 .about-link a {
   color: #fff;
   cursor: pointer;
@@ -209,6 +210,22 @@ input:focus {
 
 .about p {
   margin: 10px 0;
+}
+
+.header-link {
+  color: #fff06a;
+  text-decoration: none;
+}
+
+.version {
+  color:#9a9a9a;
+  text-align: right;
+  font-style: italic;
+  padding-right: 2px;
+}
+
+.regular-link {
+  -webkit-active:#204222;
 }
 
 @media (max-width: 600px) {
